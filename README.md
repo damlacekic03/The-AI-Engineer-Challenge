@@ -136,7 +136,7 @@ While it is a bit counter-intuitive to set things up before jumping into vibe-co
      npm install -g vercel
      ```
 
-4. From the repository root, run:
+4. Run the command:
 
      ```bash
      vercel

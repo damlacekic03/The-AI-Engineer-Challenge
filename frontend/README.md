@@ -1,33 +1,17 @@
-# Frontend
+# Feel Better
 
-A React chat interface for the FastAPI supportive mental-coach backend.
+Feel Better is a supportive chat app designed to help people reflect on stress,
+motivation, habits, and confidence. Its calm, welcoming interface offers a
+judgment-free space to share what's on your mind and take things at your own
+pace.
 
-## Requirements
+## Features
 
-- Node.js 18 or newer (npm is included with Node.js)
-- The backend running from the repository root at `http://127.0.0.1:8000`
-- `OPENAI_API_KEY` set in the repository-root `.env` file
+- Suggested conversation starters for stress, motivation, and building habits
+- A responsive chat experience for desktop and mobile
+- Clear feedback while a reply is being generated
+- Friendly error messages if a chat request cannot be completed
+- English-language conversations powered by the project's FastAPI backend
 
-## Run locally
-
-Open a terminal in this directory and install the frontend dependencies:
-
-```powershell
-npm install
-```
-
-Start the development server:
-
-```powershell
-npm run dev
-```
-
-Open the URL printed by Vite (usually `http://localhost:5173`). Keep the
-backend running in a separate terminal. The Vite development server proxies
-`/api` requests to `http://127.0.0.1:8000`.
-
-To create a production build:
-
-```powershell
-npm run build
-```
+Feel Better is for general support and reflection. It is not a substitute for
+professional care.
